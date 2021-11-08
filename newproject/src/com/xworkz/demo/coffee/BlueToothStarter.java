@@ -24,6 +24,8 @@ public class BlueToothStarter {
 				.concat(String.valueOf(bluetooth1.getNumOfDevices())).concat(" ")
 				.concat(String.valueOf(bluetooth1.getRange())).concat(" ")
 				.concat(String.valueOf(bluetooth1.getTransmissionPrower())));
+		
+		
 	}
 
 }
