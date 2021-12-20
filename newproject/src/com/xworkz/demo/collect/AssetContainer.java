@@ -8,6 +8,7 @@ public class AssetContainer implements Asset {
 
 	Collection<Object> collect = new ArrayList();
 
+	
 	@Override
 	public void addAsset(Object obj) {
 		System.out.println("Invoked addAsset()");
